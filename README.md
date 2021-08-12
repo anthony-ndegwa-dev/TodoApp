@@ -1,2 +1,0 @@
-# TodoApp
-Javascript TodoApp
