@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Todo List</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="clear">
+				<i class="fa fa-sync-alt"></i>
+			</div>
+			<h1>To-do-App</h1>
+			<div id="date"></div>
+		</header>
+
+		<div class="content">
+			<ul id="list">
+				<li class="item">
+					<i class="far fa-circle co" job="complete" id="0"></i>
+					<p class="text">Workout</p>
+					<i class="fa fa-trash de" job="delete" id="0"></i>
+				</li>
+			</ul>
+			<div class="add-to-do">
+				<i class="fa fa-plus-circle" aria-hidden="true"></i>
+				<input type="text" id="input" placeholder="Add a to-do">
+			</div>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript" src="js/app.js"></script>
+</html>
