@@ -13,8 +13,6 @@ body {
   background: var(--mainColor);
   height: 100vh;
 }
-
-
 @media(max-width: 600px){
   .container {
     height: 100%;
