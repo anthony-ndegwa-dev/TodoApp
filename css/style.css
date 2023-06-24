@@ -1,5 +1,5 @@
 :root{
-  --mainColor: repeating-linear-gradient(45deg, #f99, #ccf 60px, #cff 60px, #9cf 300px);
+  --mainColor: repeating-linear-gradient(45deg, #ccc 60px, #ddd 60px, #1cf 300px);
   --secondColor: rgb(62, 36, 235);
   --thirdColor: #fff;
   margin: 0;
